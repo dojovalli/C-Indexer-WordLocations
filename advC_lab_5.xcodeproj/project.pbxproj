@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8408F5CD1B3406EF003DC1DE /* StringMaster.c in Sources */ = {isa = PBXBuildFile; fileRef = 8408F5CC1B3406EF003DC1DE /* StringMaster.c */; };
+		846ADEFB1B26DE3900E3DDFC /* TestWord.c in Sources */ = {isa = PBXBuildFile; fileRef = 846ADEFA1B26DE3900E3DDFC /* TestWord.c */; };
+		846ADF121B2AB6BD00E3DDFC /* TestBinarySearchTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 846ADF111B2AB6BD00E3DDFC /* TestBinarySearchTree.c */; };
+		8478894C1B2CD29600830DF5 /* TestWordReport.c in Sources */ = {isa = PBXBuildFile; fileRef = 8478894B1B2CD29600830DF5 /* TestWordReport.c */; };
 		84AE676C1B24E4CE00B82BDF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 84AE676B1B24E4CE00B82BDF /* main.c */; };
 		84AE676E1B24E4CE00B82BDF /* advC_lab_5.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84AE676D1B24E4CE00B82BDF /* advC_lab_5.1 */; };
+		84AE67751B24E52300B82BDF /* CommandLineViewController.c in Sources */ = {isa = PBXBuildFile; fileRef = 84AE67741B24E52300B82BDF /* CommandLineViewController.c */; };
+		84AE67781B24E83700B82BDF /* WordReport.c in Sources */ = {isa = PBXBuildFile; fileRef = 84AE67771B24E83700B82BDF /* WordReport.c */; };
+		84AE677C1B24ED7400B82BDF /* BinarySearchTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 84AE677B1B24ED7400B82BDF /* BinarySearchTree.c */; };
+		84AE677E1B24EE7300B82BDF /* Word.c in Sources */ = {isa = PBXBuildFile; fileRef = 84AE677D1B24EE7300B82BDF /* Word.c */; };
+		84AE67821B26316000B82BDF /* DoubleLinkedQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 84AE67811B26316000B82BDF /* DoubleLinkedQueue.c */; };
+		84AE67841B26375A00B82BDF /* WordLocation.c in Sources */ = {isa = PBXBuildFile; fileRef = 84AE67831B26375A00B82BDF /* WordLocation.c */; };
+		84AE67871B264B6A00B82BDF /* TestDBLQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 84AE67861B264B6A00B82BDF /* TestDBLQueue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +36,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8408F5CC1B3406EF003DC1DE /* StringMaster.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StringMaster.c; sourceTree = "<group>"; };
+		8408F5CE1B34071C003DC1DE /* StringMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringMaster.h; sourceTree = "<group>"; };
+		8408F5CF1B340741003DC1DE /* WordReportConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordReportConstants.h; sourceTree = "<group>"; };
+		846ADEF91B26DE2E00E3DDFC /* TestWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestWord.h; sourceTree = "<group>"; };
+		846ADEFA1B26DE3900E3DDFC /* TestWord.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestWord.c; sourceTree = "<group>"; };
+		846ADF111B2AB6BD00E3DDFC /* TestBinarySearchTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestBinarySearchTree.c; sourceTree = "<group>"; };
+		846ADF131B2AB6D200E3DDFC /* TestBinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBinarySearchTree.h; sourceTree = "<group>"; };
+		8478894A1B2CD28800830DF5 /* TestWordReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestWordReport.h; sourceTree = "<group>"; };
+		8478894B1B2CD29600830DF5 /* TestWordReport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestWordReport.c; sourceTree = "<group>"; };
 		84AE67681B24E4CE00B82BDF /* advC_lab_5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = advC_lab_5; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE676B1B24E4CE00B82BDF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		84AE676D1B24E4CE00B82BDF /* advC_lab_5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = advC_lab_5.1; sourceTree = "<group>"; };
+		84AE67741B24E52300B82BDF /* CommandLineViewController.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CommandLineViewController.c; sourceTree = "<group>"; };
+		84AE67761B24E53400B82BDF /* CommandLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandLineViewController.h; sourceTree = "<group>"; };
+		84AE67771B24E83700B82BDF /* WordReport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WordReport.c; sourceTree = "<group>"; };
+		84AE67791B24E84100B82BDF /* WordReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordReport.h; sourceTree = "<group>"; };
+		84AE677A1B24ED6900B82BDF /* BinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
+		84AE677B1B24ED7400B82BDF /* BinarySearchTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BinarySearchTree.c; sourceTree = "<group>"; };
+		84AE677D1B24EE7300B82BDF /* Word.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Word.c; sourceTree = "<group>"; };
+		84AE677F1B24EE7F00B82BDF /* Word.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		84AE67801B26314E00B82BDF /* DoubleLinkedQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleLinkedQueue.h; sourceTree = "<group>"; };
+		84AE67811B26316000B82BDF /* DoubleLinkedQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DoubleLinkedQueue.c; sourceTree = "<group>"; };
+		84AE67831B26375A00B82BDF /* WordLocation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WordLocation.c; sourceTree = "<group>"; };
+		84AE67851B26376400B82BDF /* WordLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordLocation.h; sourceTree = "<group>"; };
+		84AE67861B264B6A00B82BDF /* TestDBLQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestDBLQueue.c; sourceTree = "<group>"; };
+		84AE67881B264B7800B82BDF /* TestDBLQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDBLQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +96,29 @@
 			children = (
 				84AE676B1B24E4CE00B82BDF /* main.c */,
 				84AE676D1B24E4CE00B82BDF /* advC_lab_5.1 */,
+				84AE67761B24E53400B82BDF /* CommandLineViewController.h */,
+				84AE67741B24E52300B82BDF /* CommandLineViewController.c */,
+				8408F5CF1B340741003DC1DE /* WordReportConstants.h */,
+				84AE67791B24E84100B82BDF /* WordReport.h */,
+				84AE67771B24E83700B82BDF /* WordReport.c */,
+				84AE677A1B24ED6900B82BDF /* BinarySearchTree.h */,
+				84AE677B1B24ED7400B82BDF /* BinarySearchTree.c */,
+				84AE677F1B24EE7F00B82BDF /* Word.h */,
+				84AE677D1B24EE7300B82BDF /* Word.c */,
+				84AE67801B26314E00B82BDF /* DoubleLinkedQueue.h */,
+				84AE67811B26316000B82BDF /* DoubleLinkedQueue.c */,
+				84AE67851B26376400B82BDF /* WordLocation.h */,
+				84AE67831B26375A00B82BDF /* WordLocation.c */,
+				8478894A1B2CD28800830DF5 /* TestWordReport.h */,
+				8478894B1B2CD29600830DF5 /* TestWordReport.c */,
+				846ADF131B2AB6D200E3DDFC /* TestBinarySearchTree.h */,
+				846ADF111B2AB6BD00E3DDFC /* TestBinarySearchTree.c */,
+				84AE67861B264B6A00B82BDF /* TestDBLQueue.c */,
+				84AE67881B264B7800B82BDF /* TestDBLQueue.h */,
+				846ADEF91B26DE2E00E3DDFC /* TestWord.h */,
+				846ADEFA1B26DE3900E3DDFC /* TestWord.c */,
+				8408F5CE1B34071C003DC1DE /* StringMaster.h */,
+				8408F5CC1B3406EF003DC1DE /* StringMaster.c */,
 			);
 			path = advC_lab_5;
 			sourceTree = "<group>";
@@ -117,7 +174,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AE677E1B24EE7300B82BDF /* Word.c in Sources */,
+				8478894C1B2CD29600830DF5 /* TestWordReport.c in Sources */,
+				84AE67871B264B6A00B82BDF /* TestDBLQueue.c in Sources */,
+				846ADEFB1B26DE3900E3DDFC /* TestWord.c in Sources */,
+				84AE67821B26316000B82BDF /* DoubleLinkedQueue.c in Sources */,
+				84AE67751B24E52300B82BDF /* CommandLineViewController.c in Sources */,
+				8408F5CD1B3406EF003DC1DE /* StringMaster.c in Sources */,
 				84AE676C1B24E4CE00B82BDF /* main.c in Sources */,
+				84AE67841B26375A00B82BDF /* WordLocation.c in Sources */,
+				84AE677C1B24ED7400B82BDF /* BinarySearchTree.c in Sources */,
+				846ADF121B2AB6BD00E3DDFC /* TestBinarySearchTree.c in Sources */,
+				84AE67781B24E83700B82BDF /* WordReport.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -187,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -195,6 +263,7 @@
 		84AE67721B24E4CE00B82BDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -202,6 +271,7 @@
 		84AE67731B24E4CE00B82BDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -225,6 +295,7 @@
 				84AE67731B24E4CE00B82BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
